@@ -1,0 +1,17 @@
+dataset_name: 'bay_point'
+window: 24
+
+detrend: False
+scale: True
+scaling_axis: 'channels'
+scaled_target: True
+
+epochs: 300
+samples_per_epoch: 5120  # 160 batch of 32
+lr: 0.0005
+batch_size: 64
+aggregate_by: ['mean']
+
+model_name: 'var'
+order: 5
+padding: 'mean'

@@ -1,0 +1,26 @@
+dataset_name: 'irish_point'
+window: 24
+whiten_prob: 0.2
+
+detrend: False
+scale: True
+scaling_axis: 'channels'
+scaled_target: True
+
+epochs: 300
+samples_per_epoch: 5120  # 160 batch of 32
+batch_size: 32
+loss_fn: mse_loss
+consistency_loss: False
+use_lr_schedule: True
+grad_clip_val: -1
+aggregate_by: ['mean']
+
+model_name: 'gain'
+d_model: 256
+d_z: 4
+dropout: 0.2
+inject_noise: true
+alpha: 20
+g_train_freq: 3
+d_train_freq: 1

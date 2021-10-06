@@ -1,0 +1,15 @@
+dataset_name: 'air36'
+window: 36
+
+detrend: False
+scale: True
+scaling_axis: 'channels'
+scaled_target: True
+
+epochs: 300
+samples_per_epoch: 5120  # 160 batch of 32
+batch_size: 32
+aggregate_by: ['mean']
+
+model_name: 'brits'
+d_hidden: 64

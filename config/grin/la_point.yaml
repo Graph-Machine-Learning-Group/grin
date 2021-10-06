@@ -1,0 +1,27 @@
+dataset_name: 'la_point'
+window: 24
+
+adj_threshold: 0.1
+
+detrend: False
+scale: True
+scaling_axis: 'global'  # ['channels', 'global']
+scaled_target: True
+
+epochs: 300
+samples_per_epoch: 5120  # 160 batch of 32
+batch_size: 32
+aggregate_by: ['mean']
+
+model_name: 'grin'
+pred_loss_weight: 1
+
+d_hidden: 64
+d_emb: 8
+d_ff: 64
+ff_dropout: 0
+kernel_size: 2
+decoder_order: 1
+n_layers: 1
+layer_norm: false
+merge: 'mlp'

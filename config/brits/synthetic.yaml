@@ -1,0 +1,12 @@
+window: 36
+p_block: 0.025
+p_point: 0.025
+min_seq: 4
+max_seq: 9
+use_exogenous: False
+
+epochs: 200
+batch_size: 32
+
+model_name: 'brits'
+d_hidden: 32

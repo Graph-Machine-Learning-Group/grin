@@ -1,0 +1,23 @@
+dataset_name: 'air'
+window: 24
+
+adj_threshold: 0.1
+
+detrend: False
+scale: True
+scaling_axis: 'global'  # ['channels', 'global']
+scaled_target: True
+
+epochs: 300
+samples_per_epoch: 5120  # 160 batch of 32
+batch_size: 32
+aggregate_by: ['mean']
+
+model_name: 'mpgru'
+pred_loss_weight: 1
+d_hidden: 64
+d_ff: 64
+dropout: 0
+kernel_size: 2
+n_layers: 1
+layer_norm: false

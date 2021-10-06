@@ -1,0 +1,20 @@
+window: 36
+p_block: 0.025
+p_point: 0.025
+min_seq: 4
+max_seq: 9
+use_exogenous: False
+
+epochs: 200
+batch_size: 32
+
+model_name: 'grin'
+d_hidden: 16
+d_emb: 0
+d_ff: 16
+ff_dropout: 0
+kernel_size: 1
+decoder_order: 1
+n_layers: 1
+layer_norm: false
+merge: 'mlp'
