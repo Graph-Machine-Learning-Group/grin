@@ -1,7 +1,10 @@
 # Multivariate Time Series Imputation by Graph Neural Networks ([arxiv preprint](https://arxiv.org/abs/2108.00298), 2021)
---
 
-In this file, we provide some instructions for the reproducibility of the experiments presented in the paper "Multivariate Time Series Imputation by Graph Neural Networks".
+This repository contains the code for the reproducibility of the experiments presented in the paper "Multivariate Time Series Imputation by Graph Neural Networks". In this paper, we propose a graph neural network architecture for multivariate time series imputation and achieve state-of-the-art results on several benchmarks.
+
+**Authors**: [Andrea Cini](mailto:andrea.cini@usi.ch), [Ivan Marisca](mailto:ivan.marisca@usi.ch), Cesare Alippi
+
+---
 
 ## Directory structure
 
