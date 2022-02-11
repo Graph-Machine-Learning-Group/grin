@@ -10,6 +10,18 @@ This repository contains the code for the reproducibility of the experiments pre
 
 ---
 
+<h2 align=center>GRIN in a nutshell</h2>
+
+The [paper](https://arxiv.org/abs/2108.00298) introduces __GRIN__, a method and an architecture to exploit relational inductive biases to reconstruct missing values in multivariate time series coming from sensor networks. GRIN features a bidirectional recurrent GNN which learns __spatio-temporal node-level representations__ tailored to reconstruct observations at neighboring nodes.
+
+<p align=center>
+  <a href="https://github.com/marshka/sinfony">
+    <img src="./grin.png" alt="Logo"/>
+  </a>
+</p>
+
+---
+
 ## Directory structure
 
 The directory is structured as follows:
