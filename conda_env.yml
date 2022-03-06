@@ -1,0 +1,24 @@
+name: grin
+channels:
+  - defaults
+  - pytorch
+  - conda-forge
+dependencies:
+  - pip
+  - pytables
+  - python=3.8
+  - pytorch=1.8
+  - torchvision
+  - torchaudio
+  - wheel
+  - pip:
+      - einops
+      - fancyimpute==0.6
+      - h5py
+      - openpyxl
+      - pandas
+      - pytorch-lightning==1.4
+      - pyyaml
+      - scikit-learn
+      - scipy
+      - tensorboard
