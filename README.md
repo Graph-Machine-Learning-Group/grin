@@ -81,7 +81,7 @@ The scripts used for the experiment in the paper are in the `scripts` folder.
 * `run_imputation.py` is used to compute the metrics for the deep imputation methods. An example of usage is
 
 	```
-	python ./scripts/run_baselines.py --config config/grin/air36.yaml --in-sample False
+	python ./scripts/run_imputation.py --config config/grin/air36.yaml --in-sample False
 	```
 
 * `run_synthetic.py` is used for the experiments on the synthetic datasets. An example of usage is
