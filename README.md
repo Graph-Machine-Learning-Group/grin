@@ -8,6 +8,9 @@ This repository contains the code for the reproducibility of the experiments pre
 
 **Authors**: [Andrea Cini](mailto:andrea.cini@usi.ch), [Ivan Marisca](mailto:ivan.marisca@usi.ch), Cesare Alippi
 
+
+**‼️ PyG implementation of GRIN is now available inside [Torch Spatiotemporal](https://github.com/TorchSpatiotemporal/tsl), a library built to accelerate research on neural spatiotemporal data processing methods, with a focus on Graph Neural Networks.**
+
 ---
 
 <h2 align=center>GRIN in a nutshell</h2>
